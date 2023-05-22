@@ -4,7 +4,12 @@
 
 int main(void)
 {
-    int a  = 3, b = 5;
+    
+	int a, b;
+	printf("숫자 두개를 입력하세요: ");
+	scanf("%d %d",&a,&b);
+	printf("(input) a=%d, b=%d\n",a,b);
+
     printf("(initial) a=%d, b=%d\n",a,b);
 
     swap(&a,&b);
